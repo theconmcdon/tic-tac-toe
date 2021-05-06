@@ -1,3 +1,6 @@
+/*Please refer to the notes in the corresponding HTML file if you're finding 
+yourself noticing that this isn't exactly what Covalence told us to do*/
+
 body{
     margin: 0;
     padding-bottom: 5em;
@@ -22,6 +25,7 @@ body{
     border: black solid 1px;
     border-top: transparent;
     border-left: transparent;
+    cursor: pointer;
 }
 
 .topcenter{
@@ -33,6 +37,7 @@ body{
     border-left: transparent;
     border-right: transparent;
     left: 33.33333%;
+    cursor: pointer;
 }
 
 .topright{
@@ -43,6 +48,7 @@ body{
     border: black solid 1px;
     border-top: transparent;
     border-right: transparent;
+    cursor: pointer;
 }
 
 .left{
@@ -54,6 +60,7 @@ body{
     border-left: transparent;
     border-bottom: transparent;
     border-top: transparent;
+    cursor: pointer;
 }
 
 .center{
@@ -63,6 +70,7 @@ body{
     left: 33.33333%;
     top: 33.33333%;
     border: transparent;
+    cursor: pointer;
 }
 
 .right{
@@ -75,6 +83,7 @@ body{
     border-right: transparent;
     border-top: transparent;
     border-bottom: transparent;
+    cursor: pointer;
 }
 
 .bottomleft{
@@ -85,6 +94,7 @@ body{
     border: black solid 1px;
     border-left: transparent;
     border-bottom: transparent;
+    cursor: pointer;
 }
 
 .bottomcenter{
@@ -97,6 +107,7 @@ body{
     border-bottom: transparent;
     border-left: transparent;
     border-right: transparent;
+    cursor: pointer;
 }
 
 .bottomright{
@@ -108,4 +119,6 @@ body{
     border: black solid 1px;
     border-bottom: transparent;
     border-right: transparent;
+    cursor: pointer;
 }
+
