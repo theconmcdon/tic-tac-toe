@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding-bottom: 5em;
+}
+
+.title{
+    display: block;
+    text-align: center;
+}
+
+.main{
+    position: relative;
+    margin: auto;
+    height: 100vh;
+    width: 100vh;
+}
+
+.topleft{
+    position: absolute;
+    height: 33.33333%;
+    width: 33.33333%;
+    border: black solid 1px;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+.topcenter{
+    position: absolute;
+    height: 33.33333%;
+    width: 33.33333%;
+    border: black solid 1px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    left: 33.33333%;
+}
+
+.topright{
+    position: absolute;
+    height: 33.33333%;
+    width: 33.33333%;
+    left: 66.66666%;
+    border: black solid 1px;
+    border-top: transparent;
+    border-right: transparent;
+}
+
+.left{
+    position: absolute;
+    height: 33.33333%;
+    width: 33.33333%;
+    top: 33.33333%;
+    border: black solid 1px;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+}
+
+.center{
+    position: absolute;
+    height: 33.33333%;
+    width: 33.33333%;
+    left: 33.33333%;
+    top: 33.33333%;
+    border: transparent;
+}
+
+.right{
+    position: absolute;
+    height: 33.33333%;
+    width: 33.33333%;
+    top: 33.33333%;
+    left: 66.66666%;
+    border: black solid 1px;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+.bottomleft{
+    position: absolute;
+    height: 33.33333%;
+    width: 33.33333%;
+    top: 66.66666%;
+    border: black solid 1px;
+    border-left: transparent;
+    border-bottom: transparent;
+}
+
+.bottomcenter{
+    position: absolute;
+    height: 33.33333%;
+    width: 33.33333%;
+    top: 66.66666%;
+    left: 33.33333%;
+    border: black solid 1px;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.bottomright{
+    position: absolute;
+    height: 33.33333%;
+    width: 33.33333%;
+    top: 66.66666%;
+    left: 66.66666%;
+    border: black solid 1px;
+    border-bottom: transparent;
+    border-right: transparent;
+}
